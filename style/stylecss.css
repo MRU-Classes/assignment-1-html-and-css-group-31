@@ -1,0 +1,87 @@
+body{
+    font-family: "Nunito Sans";
+    font-weight: 900;
+    margin: 0;
+    height: 200vh;
+}
+
+nav{
+    position: sticky;
+    top: 0rem;
+    background: linear-gradient(to right, rgba(1, 174, 240, 0.82) 80%, rgba(131, 207, 234, 0.2));
+
+
+}
+nav ul {
+    padding: 0.6em;
+    width: 40rem;
+    margin: 0;
+    margin-left: 10%;
+
+    box-sizing: border-box;
+    border-color: #01AEF0;
+    border-width: 0.12rem;
+    border-radius: 1px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+nav .icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+header{
+    /* Adjust margin so that the bg image is under the nav bar */
+    margin-top: -5.5rem;
+    /* Resets the "margin" for content inside */
+    padding-top: 5.5rem;
+    height: 51rem;
+
+    /* https://www.pexels.com/video/two-women-lining-up-with-head-statues-3796398/ */
+    background-image: url("../images/header bg.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+h1{
+    background-image:linear-gradient(to right, rgba(1, 174, 240, 0.82),rgba(255, 255, 255, 0.0)) ;
+    width: 45%;
+    color: rgb(255, 255, 255);
+    
+    text-align: center;
+    font-size: 8rem;
+
+
+
+
+
+
+
+}
+
+
