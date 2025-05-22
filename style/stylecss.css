@@ -1,11 +1,11 @@
 body{
     font-family: "Nunito Sans";
-    font-weight: 900;
+    font-weight: 1000;
     margin: 0;
-    height: 200vh;
+    height: 400vh;
 }
 
-nav{
+.nav-header{
     position: sticky;
     top: 0rem;
     background: linear-gradient(to right, rgba(1, 174, 240, 0.82) 80%, rgba(131, 207, 234, 0.2));
@@ -15,7 +15,7 @@ nav{
 nav ul {
     padding: 0.6em;
     width: 40rem;
-    margin: 0;
+    margin-top: -4rem;
     margin-left: 10%;
 
     box-sizing: border-box;
@@ -33,7 +33,7 @@ nav ul {
 }
 nav li{
     list-style: none;
-    display: inline-block;
+    display: inline;
     
     
 }
@@ -41,7 +41,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: white;
+    font-weight: 700;
 
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-image:linear-gradient(to right, rgba(117, 216, 255, 0.82)67%,rgba(255, 255, 255, 0.0)) ;
+    font-weight: 700;
+
+}
+
+nav a:visited{
+    color: rgb(164, 255, 164);
 }
 
 
@@ -51,8 +63,14 @@ nav .icon{
     height: 2.5rem;
 }
 
+nav .icon:hover{
+    background-image:linear-gradient(to right, rgba(117, 216, 255, 0.82)67%,rgba(255, 255, 255, 0.0)) ;
+    width: 2.5rem;
+    height: 2.5rem;
+}
 
-header{
+
+header.title{
     /* Adjust margin so that the bg image is under the nav bar */
     margin-top: -5.5rem;
     /* Resets the "margin" for content inside */
@@ -62,25 +80,218 @@ header{
     /* https://www.pexels.com/video/two-women-lining-up-with-head-statues-3796398/ */
     background-image: url("../images/header bg.png");
     background-size: cover;
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
 }
 
 h1{
-    background-image:linear-gradient(to right, rgba(1, 174, 240, 0.82),rgba(255, 255, 255, 0.0)) ;
-    width: 45%;
-    color: rgb(255, 255, 255);
+    background-image:linear-gradient(to right, rgba(117, 216, 255, 0.82),rgba(255, 255, 255, 0.0)) ;
     
+    color: rgb(255, 255, 255);
+
     text-align: center;
     font-size: 8rem;
+    width: 45%;
+
+}
+
+.section-home{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 30rem;
+    
+    
+    display: flex;
+    column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    
+
+}
+
+.section-home2{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    height: 24rem;
+    
+    
+    display: flex;
+    column-gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    border-style: dashed;
+    
+
+}
+.minisection-home{
+    margin-top: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+    
+    
+    display: flex;
+    column-gap: 4rem;
+    
+    justify-content: center;
+    border-style: dashed;
+    
+
+}
+
+article{
+    background-image: linear-gradient(to left, rgba(117, 216, 255, 0.82),rgba(255, 255, 255, 0.0));
+    width: 40rem;
+    padding: 2em;
+    
+    box-sizing: border-box;
+    
+
+}
+article.rev{
+    background-image: linear-gradient(to right, rgba(117, 216, 255, 0.82),rgba(255, 255, 255, 0.0));
+    width: 40rem;
+    padding: 2em;
+    
+    box-sizing: border-box;
+    
+
+}
+
+h2{
+    font-size: 4rem;
+    margin: 0;
+    color: rgb(63, 63, 63);
+
+}
+p{
+    margin: 0;
+    margin-left: 0.4rem;
+    color: rgb(63, 63, 63);
+    font-weight: 700;
+    font-size: 1.5rem;
+
+
+}
+
+figure{
+    margin: 0;
+    height: 100%;
+    
+   
+    
+}
+
+.article-image{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.article-image2{
+    
+    width: 30rem;
+    height: 100%;
+    
+}
+
+.mini{
+    background-image: linear-gradient( rgba(0, 81, 112, 0.82)60%,rgba(0, 81, 112, 0.82));
+    width: 40rem;
+    padding: 2em;
+    
+    box-sizing: border-box;
+
+
+}
+h3{
+    font-size: 3rem;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.pmini{
+    margin: 0;
+    margin-left: 0.4rem;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 1.5rem;
+
+
+}
+
+.new-sec{
+    margin-top: 8rem;
+    padding-top: 0;
+    height: 40rem;
+    /* https://www.pexels.com/video/humanoid-robot-moving-5854603/ */
+    background-image: url("../images/factory_robot.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
 
 
 
+.mini-title{
+    background-image:linear-gradient(to right, rgba(117, 216, 255, 0.82),rgba(255, 255, 255, 0.0)) ;
+    
+    color: rgb(255, 255, 255);
 
+    text-align: center;
+    font-size: 5rem;
+    width: 45%;
+}
 
+table{
+    border-color: #01AEF0;
+    border-width: 1rem;
+    border-radius: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 73%;
+}
 
+th{
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0.2rem;
+    color: rgb(63, 63, 63);
+    font-size: 2rem;
+    
+}
+
+#basic{
+    padding: 0;
+    font-size: 3rem;
+}
+
+#factory{
+    padding: 0;
+    margin: 0;
+
+}
+td{
+    padding-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-width: 0.2rem;
+    color: rgb(63, 63, 63);
+    font-size: 1rem;
+    font-weight: 500;
 
 }
 

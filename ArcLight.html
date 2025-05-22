@@ -5,6 +5,7 @@
     <!-- INCOMPLETE -->
     <meta name="description" content="">
     <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
@@ -12,21 +13,92 @@
 
     <title>ArcLight-Home</title>
 </head>
-<body>
-    <nav>
-        <ul>
-            <!-- IMAGE FROM: https://www.rawpixel.com/search/line%20drawing%20brain?page=1&path=1522&sort=curated -->
-            <li class="logo"><a href="#" class="logo-icon"><img class="icon" src="./images/brain icon.jpg"></a></li>
-            <li class="info"><a href="#">What is ArcLight</a></li>
-            <li class="features"><a href="#">Features</a></li>
-            <li class="models"><a href="#">Models</a></li>
-            <li class="sign-up"><a href="#">Sign Up</a></li>
-    
-        </ul>
-    </nav>
 
-    <header>
+<body>
+
+    <header class="title">
         <h1>ArcLight</h1>
     </header>
+
+    <header class="nav-header">
+        <nav>
+            <ul>
+                <!-- IMAGE FROM: https://www.rawpixel.com/search/line%20drawing%20brain?page=1&path=1522&sort=curated -->
+                <li class="logo"><a href="ArcLight.html" class="logo-icon"><img class="icon" src="./images/brain icon.jpg"></a></li>
+                <li class="info"><a href="#what">What is ArcLight</a></li>
+                <li class="features"><a href="#how">How it's made</a></li>
+                <li class="models"><a href="#">Models</a></li>
+                <li class="sign-up"><a href="#">Sign Up</a></li>
+        
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="section-home" >
+        <figure>
+            <!-- https://www.pickpik.com/robot-artificial-intelligence-machine-forward-digital-58057 -->
+            <img class="article-image" src="./images/robot.jpg" width="300" height="300" alt="emotionless huamnoid robot">
+        </figure>
+        <article>
+            <h2>What is ArcLight</h2>
+            <p>
+                ArcLight is the first Neurorobotics company to develop functional and lifelike huamanoid robots that can adapt and evolve depending on its environment.
+            </p>
+
+        </article>
+    </section>
+    <section class="minisection-home">
+        <article class="mini">
+            <h3>Mission</h3>
+            <p class="pmini">To provide a companion or a helper by creating humanoid robots that offer support and assistance to people.</p>
+        </article>
+        <article class="mini">
+            <h3>Vision</h3>
+            <p class="pmini">We strive for a future where everyone can have easier and fulfilling lives. </p>
+        </article>
+
+    </section>
+
+    <section class="section-home2">
+        <article class="rev">
+            <h2>Features</h2>
+            <p>ArcLight androids can be trained for specific roles to meet there owners goals, but all ArcLight androids have the basic human attributes and abilities such as locomotion, communication, facial expression, artificial emotions, critical thinking, etc.</p>
+        </article>
+        <figure>
+            <!-- https://www.pexels.com/video/woman-with-afro-hair-shouting-8724360/ -->
+            <img class="article-image2" src="./images/emotions.png" width="50" height="100" alt="a person with a disgusted facial expression">
+        </figure>
+
+    </section>
+    <div id="how"></div>
+    <section class="new-sec" >
+        
+            <h2 class="mini-title" >How its made</h2>
+            
+        
+
+    </section>
+
+    <table border="1">
+        <thead>
+        
+            <tr><th id="factory" rowspan="1"><img src="./images/process.webp" alt="" width="300" height="230"><th id="basic" colspan="2">The Basics</th>
+            <tr><th>Steps</th><th>Action</th><th>Outcome</th></tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr><th>1. Design</th><td>Plan and design the specific use case of the Android (e.g. healthcare, factory worker, police).</td><td>An android that excel in a specific role</td></tr>
+            <tr><th>2. Hardware planning</th><td>Integrating necassary artificial human sensors (e.g. vision, but not pain receptors) and assemble the skeletal and artificial epidermis.</td><td>A near perfect resemblance of all observable human atributes.</td></tr>
+            <tr><th>3. AI components</th><td>Use the ArcLight neurodata technology to read human brain data and use the data to train an androids local neural network.</td><td>A perfect android that can do what humans can and cannot.</td></tr>
+            <tr><th>4. Testing</th><td>use stress testing methods to identify failures in the machine</td><td>Ensures that the android works as expected.</td></tr>
+
+        </tbody>
+        
+    </table>
+
+
+
 </body>
 </html>
