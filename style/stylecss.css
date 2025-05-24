@@ -467,6 +467,28 @@ opacity: 0.95;
     
 }
 
+img[src*="worker"]{
+
+
+
+width: calc(159.9375rem * 0.46886447);
+height: calc(85.3125rem * 0.46886447);
+float: right;
+overflow: hidden;
+opacity: 0.80;
+
+    
+    
+}
+
+#worker{
+    background-color: #b18f6f;
+}
+#common{
+
+    background-color: #bdbec0;
+}
+
 .floater div{
     overflow: hidden;
     width: calc(159.9375rem * 0.3);
@@ -483,7 +505,8 @@ opacity: 0.95;
     height: 30rem;
     padding: 2rem;
     margin: 5rem;
-    margin-right: 0rem;
+    margin-left: 8rem;
+    margin-right: 50%;
     margin-bottom: 5;
     border-radius: 0.27rem;
     
@@ -498,9 +521,29 @@ opacity: 0.95;
    
 }
 
+#card-worker{
+    background-color: rgb(80, 40, 1);
+    
+    
+
+
+
+   
+}
+
+#card-common{
+
+    background-color: #3d3730;
+    
+}
+
+
 .floater .pmini {
     display: block;
-    color: #01AEF0;
+    color: #ffffff;
+    font-weight: 450;
+    font-size: 1.5rem;
+    line-height: 1.6;  
 }
 
 .floater h3{
@@ -510,4 +553,13 @@ opacity: 0.95;
 #nav-dark{
     background: linear-gradient(to right, rgba(58, 94, 130,0.82) 80%, rgba(131, 207, 234, 0.2));
 
+}
+
+.h3-underlinenone{
+
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+    color: white;
+      
 }
